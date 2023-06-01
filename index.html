@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com JQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1> Travel Line - Sua viagem Garantida </h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <nav>
+            <div class="container">
+            <ul>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Em destaque</a>
+                </li>
+                <li>
+                    <a href="#">Promoções</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <div id="carrossel-imagens">
+        <img src="imagens/slide1.jpg" alt="">
+        <img src="imagens/slide2.jpg" alt="">
+        <img src="imagens/slide3.jpg" alt="">
+    </div>
+    
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="imagens/new york.jpg" alt="New York">
+            <div>
+                <h2> Sobre a Travel Line - Sua viagem Garantida</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum incidunt totam facere iusto. Eligendi nobis repellendus tempore minima praesentium error accusantium fuga? Ipsum, eius molestiae veritatis iure corrupti ex ducimus.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2> Em destaque </h2>
+            <ul class="container-flex lista-viagens">
+                <li>
+                    <img src="imagens/ireland.jpg" alt="Irlanda">
+                    <h3> Viagem para Irlanda </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sunt quisquam velit harum earum placeat a provident! Similique quia architecto officiis tempore voluptate earum quibusdam facere nihil! Aspernatur, provident nostrum.</p>
+                    <strong> R$ 5.000,00</strong>
+                    <button type="button">Comprar</button>
+                </li>
+                <li class="item-central">
+                    <img src="imagens/london.jpg" alt="Londres">
+                    <h3> Viagem para Londres </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sunt quisquam velit harum earum placeat a provident! Similique quia architecto officiis tempore voluptate earum quibusdam facere nihil! Aspernatur, provident nostrum.</p>
+                    <strong> R$ 5.500,00</strong>
+                    <button type="button">Comprar</button>
+                </li>
+                <li>
+                    <img src="imagens/new york.jpg" alt="Nova Iorque">
+                    <h3> Viagem para Nova Iorque </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sunt quisquam velit harum earum placeat a provident! Similique quia architecto officiis tempore voluptate earum quibusdam facere nihil! Aspernatur, provident nostrum.</p>
+                    <strong> R$ 6.000,00</strong>
+                    <button type="button">Comprar</button>
+                </li>
+                <li>
+                    <img src="imagens/paris.jpg" alt="Paris">
+                    <h3> Viagem para Paris </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sunt quisquam velit harum earum placeat a provident! Similique quia architecto officiis tempore voluptate earum quibusdam facere nihil! Aspernatur, provident nostrum.</p>
+                    <strong> R$ 8.000,00</strong>
+                    <button type="button">Comprar</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2> Promoções de Viagens </h2>
+            <ul class="container-flex lista-viagens">
+                <li>
+                    <img src="imagens/ireland.jpg" alt="Irlanda">
+                    <h3> Viagem para Irlanda</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum vel facere, optio soluta suscipit error rem at? Quae quas harum quod quia magni obcaecati quaerat quidem incidunt amet tempora.</p>
+                    <div class="price">
+                        <del> R$ 5.000,00 </del>
+                        <strong> R$ 4.500,00 </strong>
+                    </div>
+                    <button type="button"> Comprar Viagem </button>
+                </li>
+                <li class="item-central">
+                    <img src="imagens/london.jpg" alt="Londres">
+                    <h3>Viagem para Londres</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit delectus nesciunt dolore necessitatibus culpa molestiae, veritatis iste quidem ea id labore voluptatum architecto. Maxime quae corporis neque autem ullam optio?</p>
+                    <div class="price">
+                        <del> R$ 5.500,00 </del>
+                        <strong> R$ 4.700,00 </strong>
+                    </div>
+                    <button type="button"> Comprar Viagem </button>
+                </li>
+                <li>
+                    <img src="imagens/new york.jpg" alt="Nova Iorque">
+                    <h3>Viagem para Nova Iorque</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ad hic laudantium dolorum voluptas deserunt. Veniam odit, expedita laboriosam maxime totam, fugiat facere corrupti tempora voluptatum nisi recusandae molestias aliquam.</p>
+                    <div class="price">
+                        <del> R$ 6.000,00 </del>
+                        <strong> R$ 5.200,00 </strong>
+                    </div>
+                    <button type="button"> Comprar Viagem </button>
+                </li>
+                <li>
+                    <img src="imagens/paris.jpg" alt="Paris">
+                    <h3>Viagem para Paris </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus nemo vel accusantium illum quisquam molestiae sequi velit dolores, non quis nesciunt dignissimos reiciendis neque magnam quo voluptas fugiat deserunt dolorum!</p>
+                    <div class="price">
+                        <del> R$ 8.000,00 </del>
+                        <strong> R$ 7.500,00 </strong>
+                    </div>
+                    <button type="button"> Comprar Viagem </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                
+                <div class="form-campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="telefone" id="telefone" name="telefone">
+                </div>
+
+                <div class="form-campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="cpf" id="cpf" name="cpf">
+                </div>
+                
+                <div class="form-campo">
+                    <label for="viagem-interesse">Viagem de Interesse:</label>
+                    <input type="text" id="veiculo-interesse" name="viagem-interesse">
+                </div>
+                
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p> &copy; 2023 - Todos os Direitos reservado - Travel Line - Sua Viagem Garantida. </p>
+        <a href="#"><img src="ícones/facebook.png" alt=""></a>
+        <a href="#"><img src="ícones/instagram.png" alt=""></a>
+        <a href="#"><img src="ícones/youtube.png" alt=""></a>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
